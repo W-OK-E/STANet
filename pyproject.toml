@@ -3,12 +3,19 @@ name = "stanet"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "==3.10.*"
 dependencies = [
+    "dominate>=2.9.1",
+    "matplotlib>=3.10.6",
+    "numpy>=2.1.2",
+    "pillow>=11.0.0",
+    "scipy>=1.15.3",
     "torch>=2.5.1",
-    "torchvision>=0.1.6",
+    "torchvision>=0.20.1",
+    "tqdm>=4.66.5",
+    "visdom>=0.2.4",
 ]
 
 [[tool.uv.index]]
 url = "https://download.pytorch.org/whl/cu121"
-default = true
+
