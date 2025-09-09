@@ -1,0 +1,7 @@
+visdom
+dominate
+matplotlib
+numpy
+Pillow
+scipy
+tqdm
